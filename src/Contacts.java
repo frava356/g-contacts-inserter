@@ -137,7 +137,7 @@ public class Contacts {
         
         // Tratamos de crear un contacto
         if( addIt ){
-        	System.out.println("\nAdding contact: " + "Elizabeth");
+        	System.out.println("\nAdding contact: " + args[2] + " " + args[3]);
         	createContact(myService, args[0], args[2], args[3], args[4], args[5]);
         }else{
         	System.out.println("\nThe contact already exists");
