@@ -12,5 +12,5 @@ Execution
 ==================
 
 To run the program you just need to open the terminal and type:
-  java -Dfile.enconding=UTF-8 Contacts <gmail_user> <gmail_password> <contact_name> <contact_family_name> <contact_email> <contact_phone>
+  java -Dfile.enconding=UTF-8 Contacts gmail_user gmail_password contact_name contact_family_name contact_email contact_phone
   
